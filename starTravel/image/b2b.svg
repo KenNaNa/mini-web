@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/营销工具/B2B分销备份 2</title>
+    <g id="ic/营销工具/B2B分销备份-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" stroke="#5088F6" stroke-width="2" x="24" y="13" width="32" height="22" rx="1"></rect>
+        <rect id="矩形" fill="#5088F6" x="24" y="21" width="32" height="2" rx="1"></rect>
+        <rect id="矩形" fill="#5088F6" x="48" y="19" width="2" height="7" rx="1"></rect>
+        <rect id="矩形" fill="#5088F6" x="30" y="19" width="2" height="7" rx="1"></rect>
+        <path d="M36,6 L44,6 C45.6568542,6 47,7.34314575 47,9 L47,12 C47,12.5522847 46.5522847,13 46,13 L34,13 C33.4477153,13 33,12.5522847 33,12 L33,9 C33,7.34314575 34.3431458,6 36,6 Z" id="矩形" stroke="#5088F6" stroke-width="2"></path>
+        <rect id="矩形" stroke="#5088F6" stroke-width="2" x="24" y="50" width="32" height="22" rx="1"></rect>
+        <rect id="矩形" fill="#5088F6" x="24" y="58" width="32" height="2" rx="1"></rect>
+        <rect id="矩形" fill="#5088F6" x="48" y="56" width="2" height="7" rx="1"></rect>
+        <rect id="矩形" fill="#5088F6" x="30" y="56" width="2" height="7" rx="1"></rect>
+        <path d="M36,43 L44,43 C45.6568542,43 47,44.3431458 47,46 L47,49 C47,49.5522847 46.5522847,50 46,50 L34,50 C33.4477153,50 33,49.5522847 33,49 L33,46 C33,44.3431458 34.3431458,43 36,43 Z" id="矩形" stroke="#5088F6" stroke-width="2"></path>
+        <path d="M18,64 L9.24324324,64 C9.10890371,64 9,63.599914 9,63.106383 L9,22.893617 C9,22.400086 9.10890371,22 9.24324324,22 L18,22" id="路径" stroke="#5088F6" stroke-width="2" stroke-linecap="round"></path>
+        <polyline id="路径" stroke="#5088F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(13.000000, 21.878680) rotate(-315.000000) translate(-13.000000, -21.878680) " points="9.5 18.3786797 16.5 18.3786797 16.5 25.3786797"></polyline>
+        <path d="M72,64 L63.2432432,64 C63.1089037,64 63,63.599914 63,63.106383 L63,22.893617 C63,22.400086 63.1089037,22 63.2432432,22 L72,22" id="路径" stroke="#5088F6" stroke-width="2" stroke-linecap="round" transform="translate(67.500000, 43.000000) scale(-1, 1) translate(-67.500000, -43.000000) "></path>
+        <polyline id="路径" stroke="#5088F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(67.000000, 63.878680) scale(-1, 1) rotate(-315.000000) translate(-67.000000, -63.878680) " points="63.5 60.3786797 70.5 60.3786797 70.5 67.3786797"></polyline>
+    </g>
+</svg>

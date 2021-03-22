@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="116px" viewBox="0 0 134 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/numble</title>
+    <defs>
+        <linearGradient x1="52.2197018%" y1="-23.2499733%" x2="52.2197018%" y2="111.888106%" id="linearGradient-1">
+            <stop stop-color="#313D92" offset="0%"></stop>
+            <stop stop-color="#5D78DA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="10-11" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分销平台" transform="translate(-420.000000, -5235.000000)" fill="url(#linearGradient-1)">
+            <g id="加盟我们" transform="translate(0.000000, 4982.000000)">
+                <g id="编组-27" transform="translate(360.000000, 253.000000)">
+                    <g id="编组-16" transform="translate(60.000000, 0.000000)">
+                        <path d="M58,0 C86.839698,0 110.763164,21.0488904 115.245751,48.6220236 L134,58 L115.245589,67.378974 C110.762587,94.9516172 86.8393502,116 58,116 C25.9674845,116 0,90.0325155 0,58 C0,25.9674845 25.9674845,0 58,0 Z" id="ic/numble"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

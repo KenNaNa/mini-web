@@ -1,0 +1,21 @@
+@charset "UTF-8";
+//区分不同主题的变量
+//实现换肤其实就是所有要区分主题的样式的值都要从这里获取
+$themes: (
+  default: (
+    color: $color-ed8d53, // 整体主题颜色
+    background-color: $color-f1f1f1, // 整体主题背景颜色
+    button-font-color: $color-fff, // 按钮文字颜色 
+    button-hover-bg-color: $color-ed6053, // 按钮悬停背景颜色  
+  ),
+  blue: (
+    color: $color-0084ff, // 整体主题颜色
+    background-color: $color-188ae2, // 整体主题背景颜色
+    button-font-color: $color-fff, // 按钮文字颜色 
+    button-hover-bg-color: $color-1e73ff, // 按钮悬停背景颜色  
+    radio-checkbox-bg-color: $color-ff9656, // 单、复选框背景颜色 时
+  ),
+  green: (font-color: green),
+);
+
+

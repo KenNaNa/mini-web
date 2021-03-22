@@ -1,0 +1,6 @@
+/* 入口公共的类名样式 */
+@charset 'UTF-8';
+
+.theme-default .common-class {
+  color: red;
+}

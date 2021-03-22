@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/营销工具/优惠券备份 2</title>
+    <g id="ic/营销工具/优惠券备份-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M73,20 C73.5522847,20 74,20.4477153 74,21 L73.9999537,33.2898925 C71.1084885,34.1504565 69,36.8289963 69,40 C69,43.1710037 71.1084885,45.8495435 73.9999537,46.7101075 L74,59 C74,59.5522847 73.5522847,60 73,60 L7,60 C6.44771525,60 6,59.5522847 6,59 L6,47 L6,47 C9.86599325,47 13,43.8659932 13,40 C13,36.1340068 9.86599325,33 6,33 L6,21 C6,20.4477153 6.44771525,20 7,20 L73,20 Z" id="形状结合" stroke="#5088F6" stroke-width="2"></path>
+        <rect id="矩形" fill="#5088F6" transform="translate(26.000000, 25.000000) rotate(-270.000000) translate(-26.000000, -25.000000) " x="21" y="24" width="10" height="2" rx="1"></rect>
+        <rect id="矩形" fill="#5088F6" transform="translate(26.000000, 40.000000) rotate(-270.000000) translate(-26.000000, -40.000000) " x="21" y="39" width="10" height="2" rx="1"></rect>
+        <rect id="矩形" fill="#5088F6" transform="translate(26.000000, 55.000000) rotate(-270.000000) translate(-26.000000, -55.000000) " x="21" y="54" width="10" height="2" rx="1"></rect>
+    </g>
+</svg>

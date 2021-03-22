@@ -1,0 +1,135 @@
+@charset 'UTF-8';
+.ripple-large- {
+  &btn- {
+    position: relative;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0 11px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    font-weight: 400;
+    font-family: $font-family;
+    text-align: center;
+    overflow: hidden;
+    // 页面顶部或底部按钮
+    &small {
+      padding: 3px 9px;
+      margin: 0 10px;
+      box-sizing: border-box;
+      height: 22px;
+      line-height: 12px;
+      font-size: $font-size-14;
+      letter-spacing: 2px;
+    }
+    // 浮动导航栏中按钮
+    &medium {
+      padding: 7px 19px;
+      margin-right: 10px;
+      box-sizing: border-box;
+      font-size: $font-size-14;
+      font-weight: $font-weight-700;
+      letter-spacing: 2px;
+    }
+    // 浮动导航栏头部按钮
+    &navigation {
+      box-sizing: border-box;
+      padding: 6px 18px;
+      min-height: 32px;
+      font-size: $font-size-14;
+      font-weight: $font-weight-700;
+      letter-spacing: 2px;
+    }
+    &large {
+      padding: 4px 18px;
+      box-sizing: border-box;
+      height: 32px;
+      line-height: 12px;
+      min-width: 100px;
+    }
+    /*
+      按钮的类型
+    */
+    &default {
+      @include themify() {
+        border: 1px solid themed('color');
+        box-sizing: border-box;
+        color: themed('color');
+      }
+      font-size: $font-size-14;
+      background: $color-fff;
+      &:hover {
+        color: $color-fff;
+        @include themify() {
+          background: themed('color');
+        }
+        cursor: pointer;
+      }
+    }
+
+    //导航栏按钮
+    &floatnav {
+      overflow: hidden;
+      margin-left: 0;
+      padding: 5px 17px;
+      min-height: 32px;
+      min-width: 100px;
+      font-size: $font-size-14;
+      font-weight: $font-weight-700;
+      letter-spacing: 2px;
+      background: none;
+      border: none;
+
+      @include themify() {
+        border: 1px solid themed('button-float-bg-color');
+        color: themed('button-float-bg-color');
+        box-sizing: border-box;
+      }
+      &:hover {
+        color: $color-fff;
+        @include themify() {
+          background: themed('button-float-bg-color');
+        }
+      }
+    }
+
+    &danger {
+      background: $color-f56c6c;
+    }
+    &primary {
+      background: $color-66b1ff;
+    }
+    &info {
+      background: $color-82848a;
+    }
+    &success {
+      background: $color-67c23a;
+    }
+    &warning {
+      background: $color-e6a23c;
+    }
+  }
+
+  &ripple {
+    overflow: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+}
+.is-not-allowed {
+  cursor: not-allowed !important;
+  @include themify() {
+     border: 1px solid themed('not-allowed-color') !important;
+     color: themed('not-allowed-color') !important;
+  }
+  &:hover {
+    @include themify() {
+    color: themed('not-allowed-color') !important;
+    }
+    background: transparent !important;
+  }
+}

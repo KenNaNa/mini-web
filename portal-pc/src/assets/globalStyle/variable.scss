@@ -1,0 +1,146 @@
+@charset "UTF-8";
+// 默认主题样式
+$color-f7f7f7: #f7f7f7; // 左侧菜单栏背景，顶栏背景颜色
+$color-ed8d53: #ed8d53; // 主题字体颜色
+$color-475cb3a: rgba(87, 95, 207, .1); // 表格置顶字体颜色
+
+// form 表单
+$color-dddddd: #dddddd; // 表单中填写内容未被选择，线条颜色
+$color-d10f0f: #d10f0f; // 表格中错误提示框文字颜色
+
+// 默认 form 表单信息提示
+$color-e0b5b5: #e0b5b5;
+$color-67c23a: #67c23a;
+
+// form 错误 提示框样式
+$color-ff873f: rgba(255, 135, 63, 0.5);
+
+$color-e34f6d: #e34f6d; // 单线框底边必填星号
+
+// form select input 背景颜色
+$color-transparent: transparent;
+
+$color-fff: #ffffff;
+$color-000: #000000;
+$color-333: #333333; // 表格字体颜色
+$color-666: #666666;
+$color-999: #999999; // 表格停止销售文字颜色 
+$color-eee: #eeeeee;
+$color-ccc: #cccccc;
+$color-c9171e: #c9171e;
+$color-f8f8f8: #f8f8f8;
+$color-ed6053: #ed6053;
+$color-ff9656: #ff9656;
+$color-575fcf: #575fcf; // 表格内置顶渐变颜色
+$color-f4f4f4: #f4f4f4; //table的边框颜色
+$color-ff5e57: #ff5e57;
+$color-ffc048: #ffc048;
+$color-cd5e3c: #cd5e3c;
+$color-f9f9f9: #f9f9f9;
+$color-e77745: #e77745; //默认主题 侧栏边框线颜色和边框线颜色
+$color-407eff: #407eff; //蓝色主题 边框线颜色
+$color-658fe7: #658fe7; //蓝色主题 侧栏边框线颜色
+$color-e69073: #e69073;
+$color-d77556: #d77556;
+$color-e3e3e3: #e3e3e3;
+$color-eaeaea: #eaeaea;
+$color-dcdfe6: #dcdfe6;
+$color-4966c6: #4966c6;
+$color-ffedc5: #ffedc5;
+$color-f1f1f1: #f1f1f1;
+$color-e9803e: #e9803e;
+$color-e4e7ed: #e4e7ed;
+$color-e6e6e6: #e6e6e6;
+$color-cd5e3c: #cd5e3c;
+$color-787878: #787878;
+$color-f56c6c: #f56c6c;
+$color-00aaff: #00aaff; // form 表单
+$color-606266: #606266;
+$color-c0c4cc: #c0c4cc; // 鼠标禁止样式
+$color-4387cd: #4387cd; // 上传文件边框
+$color-dedede: #dedede;
+$color-f5f7fa: #f5f7fa; // select-disabled
+$color-e4e7ed: #e4e7ed;
+$color-5ad1be: #5ad1be; // 详细搜索的标签页的样式
+$color-ee8048: #ee8048; // 详细搜索字体样式
+
+
+// 字体大小
+$font-size-7: 7px;
+$font-size-9: 9px;
+$font-size-10: 10px;
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$fnot-size-18: 18px;
+$font-size-20: 20px;
+$font-size-24: 24px;
+
+// 字体粗细
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 700;
+$font-weight-800: 800;
+$font-family: 'Microsoft Yahei',
+Arial,
+PingFangSC-Regular,
+sans-serif;
+
+// css 的层级关系
+// 199-100 header 层级关系
+$z-index-199: 199; 
+$z-index-198: 198;
+$z-index-197: 197;
+
+// 99-90 sidebar 层级关系
+$z-index-99: 99; 
+
+// 89-80 tag 层级关系
+$z-index-89: 89;
+// 蓝色主题
+// 有些颜色与上面相似
+$color-20bf6b: #20bf6b;  // 表单中填写正确之后 提示线条显示的颜色
+$color-2970ff: #2970ff;  // 标签中销售顾问端和客户 端都显示的标签
+$color-ffab0c: #ffab0c;  // 标签中仅销售顾 问端显示的标签; 下拉菜单鼠标经过 显示底色透明度20%
+$color-188ae2: #188ae2;  // 用于顶部导航栏背景颜色
+$color-343b4a: #343b4a;  // 侧栏菜单背景颜色
+$color-000000: #000000;  // 标签栏以及表格中文字 颜色
+$color-475cb3: #475cb3;  // 链接文字颜色
+$color-0084ff: #0084ff;  // 按钮文字颜色; 按钮背景颜色； 按钮边框颜色； 标签栏选中边框颜色； 页面内标题颜色； 下拉菜单中文字选中颜色
+$color-1e73ff: #1e73ff;  // 按钮鼠标悬停颜色； 
+$color-ff9656: #ff9656;  // 单、复选框背景颜色 时间选择时间段标签颜色
+$color-2e81c4: #2e81c4;  // logo背景底色
+$color-f2f8ff: #f2f8ff;  // 内容区卡片bg颜色
+$color-20bf6b: #20bf6b;  // 表单中填写正确之后 提示线条显示的颜色
+$color-dddddd: #dddddd;  // 表单中填写内容未被选中 时，线条显示的颜色
+$color-d10f0f: #d10f0f;  // 错误提示框内，文字颜色
+$color-2970ff: #2970ff;  // 标签中销售顾问端和客户 端都显示的标签
+$color-ffab0c: #ffab0c;  // 标签中仅销售顾 问端显示的标签; 下拉菜单鼠标经过 显示底色透明度20%
+$color-17181c: #17181C;  // sideBar 背景色
+$color-2e81c4: rgba(46,129,196,1); // 枫叶图标背景色
+$color-343b4a: #343b4a; // sidebar-right-width-color
+$color-ebeef5: #ebeef5;
+
+
+$color-ed8c53: #ED8C53; // 添加资源列表边框颜色
+$color-f9fafb: #F9FAFB; // 资源列表背景颜色
+$color-dcdcdc: #DCDCDC; // 资源价格下划线颜色
+$color-fcb78e: #FCB78E; //标签边框色
+$color-d2601d: #D2601D;
+$color-0084ff: #0084FF;
+$color-ffedc5: #FFEDC5; //选择列表项的时候出现的背景色
+$color-fcfcfc: #FCFCFC; //右键菜单背景色
+$color-8181fb: #8181fb; // 日历提示语
+$color-fafafc: #fafafc;
+
+$color-fff3ea: #fff3ea; // 右键菜单
+$color-ca4200a: rgba(202, 66, 0, 0.5);
+$color-188ae2a: rgba(24, 138, 226, 0.2);
+$color-005fa8a: rgba(0, 95, 168, 0.5);
+$color-eef0f6: #EEF0F6;
+$color-66b1ff: #66b1ff;
+$color-82848a: #82848a;
+$color-e6a23c: #e6a23c;
+$color-000-a7: rgba(0, 0, 0, .7);
+$color-000-a8: rgba(0, 0, 0, .8);

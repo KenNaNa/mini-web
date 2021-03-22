@@ -1,0 +1,8 @@
+@charset "UTF-8";
+//区分不同主题的变量
+//实现换肤其实就是所有要区分主题的样式的值都要从这里获取
+$themes: (
+  default: (color: white),
+  blue: (color: blue),
+  green: (color: green),
+);

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+//$themes取的是themeVariable.scss中声明的$themes
+/*
+ 示例：
+当前主题是red时：
+.app-container {
+  @include themify() {
+    color: themed('font-color');
+  }
+}
+最后生成的css:
+.theme-red .app-container {
+    color: red;
+}
+
+font-color是在themeVariable.scss中的red主题中声明的一个变量的key
+*/
+@mixin themify($themes: $themes) {
+  @each $theme-name, $map in $themes {
+    .theme-#{"" + $theme-name} & {
+      $theme-map: () !global;
+      @each $key, $value in $map {
+        $theme-map: map-merge(
+          $theme-map,
+          (
+            $key: $value,
+          )
+        ) !global;
+      }
+
+      @content;
+
+      $theme-map: null !global;
+    }
+  }
+}
+
+//variable.scss中声明的$themes对应的字段的key
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
